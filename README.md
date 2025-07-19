@@ -1,6 +1,9 @@
 # be_python_flask
 Simple Backend Product
 
+## Developer
+muhamadalfarisy98@gmail.com
+
 ## Architecture
 <img width="644" height="382" alt="image" src="https://github.com/user-attachments/assets/dc448161-a425-4881-81da-45ac6daa95fc" />
 
