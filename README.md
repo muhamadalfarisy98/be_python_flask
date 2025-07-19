@@ -6,7 +6,7 @@ Simple Backend Product
 - Python (v3.10+)
 - FastAPI (untuk REST API)
 - SQLAlchemy (ORM untuk akses database)
-- PostgreSQL (database)
+- MySQL (database)
 - Pydantic (validasi data)
 - Uvicorn (server dev)
 
@@ -27,7 +27,7 @@ make install
 
 ```
 
-## Endpoints
+## [1] Endpoints CRUDS
 1. Get all products
 `curl --location 'http://localhost:8000/products'`
 
@@ -52,3 +52,13 @@ make install
     "price": 15000,
     "quantity": 15
 }'`
+
+## [2] UI Flask
+running on 
+http://127.0.0.1:5000/
+
+```bash
+# run UI
+cd web
+python app.py
+```
